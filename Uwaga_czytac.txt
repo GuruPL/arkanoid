@@ -1,0 +1,2 @@
+W pliku rar znajduje sie gra tylko trzeba zmniejszyc okienko ramke myszk¹ bo robilem na androida i nie ma takiej rodzielczosci na PC robilem na samsung A3
+a vector 2d to przykladowy program w c++
