@@ -1,1 +1,1 @@
-siema
+W pliku rar znajduje sie gra a vector 2d to przykladowy program w c++

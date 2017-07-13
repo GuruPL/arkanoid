@@ -1,0 +1,5 @@
+﻿  vector2d.cpp
+i:\c++\test\vector2d\vector2d\vector2d.cpp(29): warning C4018: '<': signed/unsigned mismatch
+i:\c++\test\vector2d\vector2d\vector2d.cpp(37): warning C4018: '<=': signed/unsigned mismatch
+  vector2d.vcxproj -> I:\C++\test\vector2d\Debug\vector2d.exe
+  vector2d.vcxproj -> I:\C++\test\vector2d\Debug\vector2d.pdb (Full PDB)
