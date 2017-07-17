@@ -25,13 +25,11 @@ public:
 		}
 		else
 		{
-			osoba *temp = pierwszy;
-			while (temp->next)
+			while (ostatni->next)
 			{
-				temp = temp->next;
+				ostatni = ostatni->next;
 			}
-			temp->next = nowa;
-			ostatni = nowa;
+			ostatni->next = nowa;
 		}
 	}
 	void wypisz()
@@ -55,6 +53,15 @@ public:
 			wsk = wsk2;
 		}
 	}
+	void dodaj_na_poczatek()
+	{
+		osoba *nowa = new osoba();
+		cin >> nowa->imie;
+		osoba *tmp;
+		tmp = pierwszy;
+		pierwszy = nowa;
+		pierwszy->next = tmp;
+	}
 };
 int main()
 {
@@ -62,8 +69,7 @@ int main()
 	nowa->dodaj();
 	nowa->dodaj();
 	nowa->dodaj();
-	osoba *wsk = nowa->pierwszy->next->next;
-	nowa->usun();
-	cout << wsk->imie;
+	nowa->dodaj_na_poczatek();
+	nowa->wypisz();
 }
 
